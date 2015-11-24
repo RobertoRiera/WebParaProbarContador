@@ -16,14 +16,15 @@ class View{
     public static function loremIpsum(){
         echo '
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non eros volutpat, dapibus odio vitae, iaculis ipsum. Aenean semper et nibh pretium tristique. Proin ac enim vestibulum, volutpat ex sed, fermentum libero. Pellentesque orci urna, tincidunt ut lacus nec, elementum varius arcu. Morbi fringilla mi commodo arcu consectetur, non aliquam sapien feugiat. Ut euismod, massa ut mattis cursus, lectus dui pharetra magna, convallis pellentesque sapien nisi dapibus arcu. Duis varius sem varius eros malesuada, ut varius mauris lobortis. Nulla lobortis et leo consectetur aliquam. Pellentesque malesuada lacus nibh, eget posuere quam consectetur quis. Nunc sollicitudin placerat diam, ut venenatis arcu egestas sed.
-Cras rhoncus lectus vel dapibus hendrerit. Nullam nunc augue, consectetur at venenatis vulputate, convallis vitae ex. Mauris ullamcorper ullamcorper tellus, at lobortis nibh imperdiet vitae. Vestibulum efficitur nulla ac mi lobortis mattis. Vivamus gravida, enim et posuere ullamcorper, nunc justo vulputate elit, ac sagittis enim erat in lorem. Phasellus non porttitor sem. Vivamus vitae ex scelerisque, sollicitudin mi nec, porta sem. Fusce at ornare erat. Sed nunc turpis, sagittis ut libero in, elementum vulputate lectus. Ut lobortis convallis porta. Quisque congue ac ante quis tempus. ';
+Cras rhoncus lectus vel dapibus hendrerit. Nullam nunc augue, consectetur at venenatis vulputate, convallis vitae ex. Mauris ullamcorper ullamcorper tellus, at lobortis nibh imperdiet vitae. Vestibulum efficitur nulla ac mi lobortis mattis. Vivamus gravida, enim et posuere ullamcorper, nunc justo vulputate elit, ac sagittis enim erat in lorem. Phasellus non porttitor sem. Vivamus vitae ex scelerisque, sollicitudin mi nec, porta sem. Fusce at ornare erat. Sed nunc turpis, sagittis ut libero in, elementum vulputate lectus. Ut lobortis convallis porta. Quisque congue ac ante quis tempus. 191 palabras (estas incluidas)';
     }
 
     public static function superiorBar(){
         echo '<ol>
-            <li class="superior-bar-elemento">Enchufar correctamente</li>
-            <li class="superior-bar-elemento">Comprobar conexiones</li>
-            <li class="superior-bar-elemento">Encender el aparato</li>
+            <li class="superior-bar-elemento"><a href="index.php">Index</a></li>
+            <li class="superior-bar-elemento"><a href="page1.php">Page 1</a></li>
+            <li class="superior-bar-elemento"><a href="page2.php">Page 2</a></li>
+            <li class="superior-bar-elemento"><a href="page3.php">Page 3</a></li>
         </ol>';
     }
 
@@ -32,13 +33,11 @@ Cras rhoncus lectus vel dapibus hendrerit. Nullam nunc augue, consectetur at ven
 </html>';
     }
 
-    public static function cabecera()
-    {
-        echo'<span>Web de prueba!</span>';
+    public static function cabecera($title){
+        echo"<span>$title</span>";
     }
 
-    public static function lateralBar()
-    {
+    public static function lateralBar(){
         echo'<ul class="lista">
             <li class="lateral-bar-elemento">Enchufar correctamente</li>
             <li class="lateral-bar-elemento">Comprobar conexiones</li>

@@ -7,7 +7,7 @@ View::start("Prueba");
 echo' <div id=general>';
 
     echo' <div id=head>';
-        View::cabecera();
+        View::cabecera('Página de prueba');
     echo '</div> ';
 
     echo' <div id=bar>';
