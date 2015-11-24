@@ -7,7 +7,7 @@ View::start("Prueba");
 echo' <div id=general>';
 
 echo' <div id=head>';
-View::cabecera('Página 2');
+View::cabecera();
 echo '</div> ';
 
 echo' <div id=bar>';
@@ -17,6 +17,10 @@ echo '</div> ';
 echo' <div id=nav-bar>';
 View::lateralBar();
 echo '</div> ';
+
+echo' <div id=info>';
+View::loremIpsum2();
+echo'</div> ';
 
 
 echo' <div id=footer> </div> ';
