@@ -11,10 +11,17 @@ span{
     font-size: 80px ;
     font-family: Castellar;
 }
+
+
 .superior-bar-elemento{
     display: inline;
     list-style-type: none;
     margin-left: 15%;
+
+}
+#superior-bar-bar{
+    padding: 0px 0px 20px 0px;
+    border-style: none none solid none;
 
 }
 
@@ -23,7 +30,7 @@ span{
 
 }
 #info{
-    border: solid 1px;
+    /*border: solid 1px;*/
     position: relative;
     float: right;
     width: 650px;
@@ -39,7 +46,7 @@ span{
     min-height: 800px;
     width: 960px;
     height: auto;
-    background-color: #d2691e;
+    /*background-color: #d2691e;*/
     position:relative;
 }
 
@@ -48,12 +55,12 @@ span{
     width: inherit;
     height: 200px;
     text-align: center;
-    background-color: #21C1D0;
+    /*background-color: #21C1D0;*/
 
 }
 
 #nav-bar{
-    background-color: #D0BFD7;
+    /*background-color: #D0BFD7;*/
     margin-top: 80px;
     float:left;
     width: 200px;
@@ -61,13 +68,13 @@ span{
 }
 
 #bar{
-    background-color: #D0BFD7;
+    /*background-color: #D0BFD7;*/
     width: inherit;
     height: 60px;
 }
 
 #footer{
-    background-color: #E20074;
+    /*background-color: #E20074;*/
     width: inherit;
     height: 150px;
     position:absolute;
