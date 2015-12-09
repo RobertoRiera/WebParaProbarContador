@@ -35,7 +35,7 @@ Cras rhoncus lectus vel dapibus hendrerit. Nullam nunc agusti ut libero in, elem
             <li class="superior-bar-elemento"><a href="index.php">Index</a></li>
             <li class="superior-bar-elemento"><a href="page1.php">Page 1</a></li>
             <li class="superior-bar-elemento"><a href=page2.php>Page 2</a></li>
-            <li class="superior-bar-elemento"><a href="page3.php">Page 3</a></li>
+            <li class="superior-bar-elemento"><a href=\'page3.php\'>Page 3</a></li>
         </ol>';
     }
 
